@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Restaurant Campus </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Oswald:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="container-fluid vh-100 bg-success d-flex flex-column justify-content-around" >
+        <div class="row h-75 bg-warning justify-content-evenly flex-wrap">
+            <div class="card-categories col col-md-6 col-lg-6 p-4 h-100 bg-danger overflow-y-scroll">
+                <h1 class="text-center mb-4">Categorias.</h1>
+                <div id="container-cards" class="row justify-content-around flex-wrap gap-3">
+
+                    
+                </div>
+                  
+            </div>
+            <div class="card-categories col col-sm-12 col-md-4 col-lg-4 p-4 h-100 bg-primary">
+               
+            </div>
+
+        </div>
+
+
+
+    </main> 
+
+    <template id="card-category">
+        <div class="card col col-md-2 rounded-0 p-3" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+    </template>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>

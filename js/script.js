@@ -9,13 +9,9 @@ const $containerCards = document.getElementById("container-cards");
 
 (async ()=>{
     const data = await getData(URL+CATEGORIES)
-<<<<<<< HEAD
-    drawCategories(data)
-})();    
-=======
     showCategories(data)
 })();
->>>>>>> 2a2c552 (Fetch meals and template html)
+
 
 async function instructionsMeal(id){
     const response = await fetch("https://www.themealdb.com/api/json/v1/1/lookup.php?i="+id);
@@ -57,10 +53,6 @@ $containerCards.addEventListener("click", (e)=>{
 
 function showCategories(data){
     console.log(data)
-<<<<<<< HEAD
-=======
-    const $containerCards = document.getElementById("container-cards-categories");
->>>>>>> 2a2c552 (Fetch meals and template html)
     const $fragment = document.createDocumentFragment();
     const $template = document.getElementById("card-category").content;
 

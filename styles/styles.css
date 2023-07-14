@@ -5,3 +5,7 @@
 h1{
     font-family: 'Croissant One', cursive;    
 }
+.card{
+    min-height: 400px;
+    max-height: 400px;
+}

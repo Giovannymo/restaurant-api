@@ -15,7 +15,7 @@
 
     <main class="container-fluid vh-100 bg-success d-flex flex-column justify-content-around" >
         <div class="row h-75 bg-warning justify-content-evenly flex-wrap">
-            <div class="card-categories col col-md-6 col-lg-6 p-4 h-100 bg-danger overflow-y-scroll">
+            <div class="card-categories col-12 col-sm-6 col-md-6 col-lg-6 p-4 h-100 bg-danger overflow-y-scroll">
                 <h1 class="text-center mb-4">Categorias.</h1>
                 <div id="container-cards" class="row justify-content-around flex-wrap gap-3">
 
@@ -34,15 +34,14 @@
     </main> 
 
     <template id="card-category">
-        <div class="card col col-md-2 rounded-0 p-3" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
+        <div class="card col-12 col-sm-12 col-md-6 rounded-0 p-3 h-25 " style="width: 18rem;">
+            <img src="..." class="card-img-top mb-3" alt="...">
+            <div class="card-body  overflow-y-scroll ">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
             <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <a href="#" class="card-link">View</a>
             </div>
         </div>
     </template>
